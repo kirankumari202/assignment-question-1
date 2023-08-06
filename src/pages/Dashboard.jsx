@@ -19,11 +19,31 @@ const Dashboard = () => {
   const [searchText, setSearchText] = useState("");
   const [selectedOrderDetails, setSelectedOrderDetails] = useState({});
   const [selectedOrderTimeStamps, setSelectedOrderTimeStamps] = useState({});
+  
+  const Data = mockData.results
+  .map((item) => {
+    return {
+      ...item,
+      currency,
+      timestamps: timestamps?.results.find(
+        (time) => time["&id"] === item["&id"]
+        ).timestamps,
+      };
+    })
+    .filter((item) =>
+    item["&id"].toLowerCase().includes(searchText.toLowerCase())
+    );
+    // for filtering we can also use debounced search 
+    
+    const totalOrders = Data.length;
 
   return (
     <div>
       <div className={styles.header}>
-        <HeaderTitle primaryTitle="Orders" secondaryTitle="5 orders" />
+        <HeaderTitle
+          primaryTitle="Orders"
+          secondaryTitle={`${totalOrders} orders`}
+        />
         <div className={styles.actionBox}>
           <Search
             value={searchText}
@@ -47,7 +67,16 @@ const Dashboard = () => {
             title="Selected Order Timestamps"
           />
         </div>
-        <List rows={mockData.results} />
+        <List
+          rows={Data}
+          setOrder={{
+            setSelectedOrderDetails,
+            setSelectedOrderTimeStamps,
+          }}
+        />
+      </div>
+      <div>
+        <p style={{ padding: ".5rem 1.5rem" }}>Click to select order</p>
       </div>
     </div>
   );

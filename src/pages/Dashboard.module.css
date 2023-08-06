@@ -23,6 +23,9 @@
 
 .section {
   display: flex;
-  flex-direction: column;
   gap: 1em;
+}
+
+.section > * {
+  flex: 1;
 }

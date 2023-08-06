@@ -14,7 +14,7 @@
       "&key": "Order:SE|20221104|179|9:1:NEWO:1667901986951",
       "&model": "Order",
       "executionDetails": {
-        "buySellIndicator": "BUYI",
+        "buySellIndicator": "BUY",
         "orderStatus": "NEWO",
         "orderType": "Market"
       },
@@ -84,7 +84,7 @@
         }
       },
       "transactionDetails": {
-        "buySellIndicator": "BUYI",
+        "buySellIndicator": "BUY",
         "priceCurrency": "USD",
         "priceNotation": "MONE",
         "quantityCurrency": "USD",
@@ -100,7 +100,7 @@
       "&key": "Order:SE|20221104|179|9:1:NEWO:1667901986951",
       "&model": "Order",
       "executionDetails": {
-        "buySellIndicator": "BUYI",
+        "buySellIndicator": "BUY",
         "orderStatus": "NEWO",
         "orderType": "Market"
       },
@@ -170,7 +170,7 @@
         }
       },
       "transactionDetails": {
-        "buySellIndicator": "BUYI",
+        "buySellIndicator": "BUY",
         "priceCurrency": "USD",
         "priceNotation": "MONE",
         "quantityCurrency": "USD",
@@ -186,7 +186,7 @@
       "&key": "Order:SE|20221104|179|9:1:NEWO:1667901986951",
       "&model": "Order",
       "executionDetails": {
-        "buySellIndicator": "BUYI",
+        "buySellIndicator": "BUY",
         "orderStatus": "NEWO",
         "orderType": "Market"
       },
@@ -256,7 +256,7 @@
         }
       },
       "transactionDetails": {
-        "buySellIndicator": "BUYI",
+        "buySellIndicator": "BUY",
         "priceCurrency": "USD",
         "priceNotation": "MONE",
         "quantityCurrency": "USD",
@@ -272,7 +272,7 @@
       "&key": "Order:SE|20221104|179|9:1:NEWO:1667901986951",
       "&model": "Order",
       "executionDetails": {
-        "buySellIndicator": "BUYI",
+        "buySellIndicator": "BUY",
         "orderStatus": "NEWO",
         "orderType": "Market"
       },
@@ -342,7 +342,7 @@
         }
       },
       "transactionDetails": {
-        "buySellIndicator": "BUYI",
+        "buySellIndicator": "BUY",
         "priceCurrency": "USD",
         "priceNotation": "MONE",
         "quantityCurrency": "USD",
@@ -358,7 +358,7 @@
       "&key": "Order:SE|20221104|179|9:1:NEWO:1667901986951",
       "&model": "Order",
       "executionDetails": {
-        "buySellIndicator": "BUYI",
+        "buySellIndicator": "BUY",
         "orderStatus": "NEWO",
         "orderType": "Market"
       },
@@ -428,7 +428,7 @@
         }
       },
       "transactionDetails": {
-        "buySellIndicator": "BUYI",
+        "buySellIndicator": "BUY",
         "priceCurrency": "USD",
         "priceNotation": "MONE",
         "quantityCurrency": "USD",
@@ -514,7 +514,7 @@
         }
       },
       "transactionDetails": {
-        "buySellIndicator": "BUYI",
+        "buySellIndicator": "BUY",
         "priceCurrency": "USD",
         "priceNotation": "MONE",
         "quantityCurrency": "USD",
